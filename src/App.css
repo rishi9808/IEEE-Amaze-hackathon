@@ -385,31 +385,26 @@ p {
 .sponsor-logos {
     display: grid;
     grid-template-columns: 1fr 1fr 0.5fr;
-    margin: 20px;
+    margin: 60px;
     text-align: center;
 }
 .sponsor-logos a {
     text-decoration: none;
-    max-height: 70px;
+    max-height: 100px;
 }
 
 
 .s-container {
     display: grid;
-    grid-template-columns: 50px 1fr;
+    grid-template-columns: 100px 1fr;
     text-align: left;
     color: #fff;
-    margin: 15px;
+    margin: 10px;
 }
 
 .icons-sponsor {
     height: 40px;
     width: 100%;
-}
-
-.s-text p {
-    padding-left: 10px;
-    font-size: 30px;
 }
 
 .dev-button {

@@ -9,9 +9,9 @@ import productImage from "./images/services/icon-product-design.svg";
 import researchImage from "./images/services/icon-research.svg";
 import ecommerceImage from "./images/services/icon-ecommerce.svg";
 import frontendImage from "./images/services/icon-frontend.svg";
-import replitImage from "./images/Replit.png";
-import devfolioImage from "./images/devfolio-icon.png";
-import polygonImage from "./images/polygon-logo.png";
+import replitImage from "./images/Replit-Dark-Background.png";
+import devfolioImage from "./images/Devfolio_Logo-White.png";
+import polygonImage from "./images/Polygon_Logo-White.png";
 
 function App() {
   return (
@@ -347,9 +347,6 @@ function App() {
                   />
                 </span>
               </div>
-              <div className="s-text">
-                <p>polygon</p>
-              </div>
             </div>
           </a>
 
@@ -365,9 +362,7 @@ function App() {
                   />
                 </span>
               </div>
-              <div className="s-text">
-                <p>Devfolio</p>
-              </div>
+              
             </div>
           </a>
 
@@ -383,9 +378,7 @@ function App() {
                   />
                 </span>
               </div>
-              <div className="s-text">
-                <p>replit</p>
-              </div>
+              
             </div>
           </a>
         </div>
