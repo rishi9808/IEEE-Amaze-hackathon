@@ -26,11 +26,11 @@ function App() {
                     <li><a href="#home">Home</a></li>
                     <li><a href="#tracks">Tracks</a></li>
                     <li><a href="#guidelines">Guidlines</a></li>
-                    <li><a href='#register'>Register</a></li>
+                    
                 </ul>
   
                 <div className="rightNav">
-                    <button className="btn-sm">Apply with Devfolio</button>
+                    <button className="btn-sm">Register Now</button>
                 </div>
             </nav>
 
@@ -272,7 +272,7 @@ function App() {
 
             <section id='sponsors'>
                 <div>
-                    <h1 className="h1">Sponsors</h1>
+                    <h1 className="h1">Our Sponsors</h1>
                 </div>
                 <div className='sponsor-logos'>
                     <a href="https://devfolio.co/projects/polygon-4d64">
@@ -293,7 +293,7 @@ function App() {
                             
                                 <div className="sponsor-icon-block">
                                     <span className="s-logo-icon">
-                                        <img id='devfolio-image' className='icons-sponsor' src={devfolioImage} alt="Devfolio"/>
+                                        <img id='devfolio-image' className='icons-sponsor' src={devfolioImage} alt="DEVFOLIO LOGO"/>
                                     </span>
                                 </div>
                                 <div className='s-text'>
