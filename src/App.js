@@ -329,7 +329,7 @@ function App() {
                 </a> */}
                 <div
                   className="apply-button"
-                  data-hackathon-slug="amaze'23"
+                  data-hackathon-slug="amaze-3"
                   data-button-theme="light"
                 ></div>
               </div>
