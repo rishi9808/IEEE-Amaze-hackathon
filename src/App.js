@@ -14,6 +14,16 @@ import devfolioImage from "./images/Devfolio_Logo-White.png";
 import polygonImage from "./images/Polygon_Logo-White.png";
 
 function App() {
+  React.useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "https://apply.devfolio.co/v2/sdk.js";
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
   return (
     <div className="app" id="home">
       <nav className="navbar background">
@@ -321,7 +331,6 @@ function App() {
                   className="apply-button"
                   data-hackathon-slug="Amaze'23"
                   data-button-theme="light"
-                 
                 ></div>
               </div>
               *use given abstract format
@@ -362,7 +371,6 @@ function App() {
                   />
                 </span>
               </div>
-              
             </div>
           </a>
 
@@ -378,7 +386,6 @@ function App() {
                   />
                 </span>
               </div>
-              
             </div>
           </a>
         </div>
